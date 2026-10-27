@@ -17,10 +17,14 @@ Examples use R's built-in `ChickWeight` and `DNase` datasets, so there's nothing
 
 ## Materials
 
-| | View online | Download Rmd |
-|---|---|---|
-| **Main Lesson** | [Open lesson](https://jakesleighton.github.io/intro-r-basics/R_MiniBootcamp_Workshop_JL.html) | [R_Bootcamp_Beginner_Workshop_JL.Rmd](https://github.com/jakesleighton/intro-r-basics/raw/main/R_Bootcamp_Beginner_Workshop_JL.Rmd) |
-| **Practice Assignment (Solutions)** | [Open practice](https://jakesleighton.github.io/intro-r-basics/R_MiniBootcamp_Workshop_Practice_JL.html) | [R_Bootcamp_Beginner_Workshop_Practice_JL.Rmd](https://github.com/jakesleighton/intro-r-basics/raw/main/R_Bootcamp_Beginner_Workshop_Practice_JL.Rmd) |
+| | View in browser | HTML file | R Markdown file |
+|---|---|---|---|
+| **Main Lesson** | [Open lesson](https://jakesleighton.github.io/intro-r-basics/R_MiniBootcamp_Workshop_JL.html) | [R_MiniBootcamp_Workshop_JL.html](https://github.com/jakesleighton/intro-r-basics/raw/main/R_MiniBootcamp_Workshop_JL.html) | [R_Bootcamp_Beginner_Workshop_JL.Rmd](https://github.com/jakesleighton/intro-r-basics/raw/main/R_Bootcamp_Beginner_Workshop_JL.Rmd) |
+| **Practice Assignment (Solutions)** | [Open practice](https://jakesleighton.github.io/intro-r-basics/R_MiniBootcamp_Workshop_Practice_JL.html) | [R_MiniBootcamp_Workshop_Practice_JL.html](https://github.com/jakesleighton/intro-r-basics/raw/main/R_MiniBootcamp_Workshop_Practice_JL.html) | [R_Bootcamp_Beginner_Workshop_Practice_JL.Rmd](https://github.com/jakesleighton/intro-r-basics/raw/main/R_Bootcamp_Beginner_Workshop_Practice_JL.Rmd) |
+
+- **View in browser**: read the lesson online, no setup needed
+- **HTML file**: download to read offline
+- **R Markdown file**: download to run the code yourself in RStudio
 
 **Suggested order:** Work through the main lesson first. Try the Practice
 Assignment at the end of the lesson on your own, then check your work against
@@ -34,7 +38,13 @@ the Practice Solutions.
    ```r
    install.packages(c("tidyverse", "patchwork"))
    ```
-4. Open the `.Rmd`, then run the chunks one at a time or click **Knit** to build the HTML.
+4. Open the `.Rmd` and run the code chunks one at a time from top to bottom
+   (click the green ▶ arrow on each chunk, or put your cursor in a chunk and press
+   Ctrl+Shift+Enter / Cmd+Shift+Enter). Read the output as you go. That's where
+   the learning happens.
+
+Tip: Some chunks save small CSV files to your working directory, so run the
+chunks in order.
 
 ## About
 

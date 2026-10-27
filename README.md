@@ -51,7 +51,7 @@ This bootcamp is an early piece of a larger computational training curriculum
 covering R programming, statistics, machine learning, and cancer genomics
 (RNA, DNA, copy number). The full curriculum will be released publicly soon.
 
-Questions or interest in the full program? Contact Jake Leighton.
+Questions or interest in the full program? Contact Jake Leighton (jleighton@mdanderson.org).
 
 ## License
 
